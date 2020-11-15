@@ -8,7 +8,7 @@ logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 
 def post(data):
-    webhook_url='https://oapi.dingtalk.com/robot/send?access_token=46aa2f5571f947b73231c160dd8084771db63b23583c6539d44560ff14bed0f5' #the URL to the DingTalk group chatbot
+    webhook_url='https://oapi.dingtalk.com/robot/send?access_token=329f778278ec9a48b07172682573e252508324eb8563e0dfc39724b20b6085dc' #the URL to the DingTalk group chatbot
     headers = {'Content-Type': 'application/json; charset=utf-8'}
     post_data = json.dumps(data)
     try:
